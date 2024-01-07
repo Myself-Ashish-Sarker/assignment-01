@@ -50,9 +50,11 @@
     font-family: "Roboto", sans-serif;
 }
 
-main {
+.first-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .first-section h1 {
@@ -61,7 +63,6 @@ main {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 88px;
-    font-style: normal;
     font-weight: 700;
 }
 
@@ -79,9 +80,8 @@ main {
     margin-top: 15px;
     color: #070211;
     text-align: center;
-    font-family: Inter;
+    font-family: "Roboto", sans-serif;
     font-size: 32px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
@@ -89,4 +89,66 @@ main {
 .first-section img {
     width: 500px;
     margin-top: 48px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.second-section .vector-image {
+    width: 80rem;
+    margin-top: 120px;
+    filter: brightness(50%);
+}
+
+.party-container {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 15rem;
+    display: flex;
+    align-items: center;
+}
+
+.text-side h2 {
+    font-size: 64px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.text-side p {
+    margin-top: 10px;
+    width: 60%;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.new-year-number {
+    width: 15rem;
+}
+
+.join-now {
+    margin-left: 30px;
+    margin-top: 15px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background-color: #fff;
+    color: #070211;
+    border: 0;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.join-now:hover {
+    background-color: #070211;
+    color: #fff;
+}
+
+.join-now a {
+    text-decoration: none;
+    color: inherit; /* inherit color value from ".join-now" */
 }
