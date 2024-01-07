@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.banner-image {
+    width: 60rem;
+    margin-top: 16px;
+    filter: brightness(70%);
+}
+
+.header h3 {
+    position: absolute;
+    /* adjusting image position */
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -59%);
+    /* adjusting image position */
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .banner-main-text-up {
+    position: absolute;
+    /* adjusting image position */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -59%);
+    /* adjusting image position */
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .banner-main-text-down {
+    position: absolute;
+    /* adjusting image position */
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -59%);
+    /* adjusting image position */
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
