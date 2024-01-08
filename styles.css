@@ -373,7 +373,6 @@
 .seventh-section {
     margin-top: 15rem;
     display: flex;
-    
 }
 
 .seventh-section .bunch-of-texts {
@@ -433,4 +432,85 @@
 
 .second-three-images img {
     width: 20rem;
+}
+
+.ninth-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12rem;
+}
+
+.colored-box {
+    width: 80rem;
+    height: 30rem;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.colored-box img {
+    margin-top: 4rem;
+    width: 6rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.colored-box h1 {
+    margin-top: 1rem;
+    text-align: center;
+    color: #070211;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.colored-box p {
+    text-align: center;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    color: rgba(7, 2, 17, 0.6);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container .another-box {
+    margin-top: 1.5rem;
+    position: relative;
+    left: 50%;
+    padding: 0 215px 0 35px;
+    transform: translate(-50%);
+    font-family: "Roboto", sans-serif;
+    width: 15rem;
+    height: 3.5rem;
+    background-color: #fff;
+    border-radius: 3.125rem;
+    border: 0;
+    text-align: left;
+}
+
+.input-container button {
+    position: relative;
+    transform: translateY(1%);
+    left: 12.4rem;
+    border: 0;
+    width: 12rem;
+    height: 3.5rem;
+    border-radius: 0px 50px 50px 0px;
+    background: #f00;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    cursor: pointer;
 }
