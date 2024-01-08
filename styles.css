@@ -332,3 +332,44 @@
     font-weight: 500;
     line-height: 32px; /* 160% */
 }
+
+.sixth-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    padding: 0;
+}
+
+.two-images {
+    position: absolute;
+    
+}
+
+.gift {
+    position: absolute;
+    width: 28rem;
+    bottom: 5rem;
+    left: 21rem;
+}
+
+.discount {
+    position: absolute;
+    width: 14rem;
+    bottom: 20rem;
+    left: 55rem;
+}
+
+
+
+.sixth-section .happy-girl {
+    width: 26rem;
+    padding-left: 54rem;
+}
+
+.sixth-section .rec-red {
+    width: 80rem;
+}
+
