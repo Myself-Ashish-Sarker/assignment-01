@@ -207,3 +207,86 @@
     text-decoration: none;
     color: inherit; /* inherit color value from ".join-now" */
 }
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 4rem;
+    gap: 10rem;
+}
+
+.fourth-section .middle-image img {
+    width: 20rem;
+    border: 10px solid #f00;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.start-texts {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 1rem;
+    gap: 0.5rem;
+}
+
+.fourth-section .end-texts {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 1rem;
+    gap: 0.5rem;
+}
+
+.fourth-section .end-texts img {
+    width: 5rem;
+}
+
+.fourth-section .start-texts .offer {
+    color: #f00;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.fourth-section .start-texts h1 {
+    color: #070211;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.fourth-section .start-texts .detail {
+    margin-top: 0.8rem;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 160% */
+}
+
+.fourth-section .end-texts h1 {
+    color: #f00;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fourth-section .end-texts .detail {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 160% */
+}
