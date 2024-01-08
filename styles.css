@@ -513,6 +513,17 @@
     font-family: "Roboto", sans-serif;
     font-size: medium;
     cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.input-container button:hover {
+    background-color: #070211;
+    color: #fff;
+}
+
+.input-container button a {
+    text-decoration: none;
+    color: inherit;
 }
 
 footer {
@@ -564,6 +575,21 @@ footer {
     display: flex;
     gap: 0.5rem;
 }
+
+.second-last-divider p {
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.second-last-divider p:hover {
+    color: #f00;
+}
+
+.second-last-divider a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 hr {
     margin-top: 2rem;
